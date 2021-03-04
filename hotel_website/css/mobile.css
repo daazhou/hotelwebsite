@@ -1,0 +1,64 @@
+/* css for mobile view, 768px max width and to make the website more responsive */
+#navbar .logo{
+  float: none;
+  text-align: center;
+}
+
+/* floats the navbar to none so the float on the right is overridden in mobile */
+#navbar ul, #navbar ul li {
+  float: none;
+}
+/* grabs the navbar ul list and puts a border at the bottom while giving a dotted line */
+#navbar ul li a{
+  padding: 5px;
+  border-bottom: #444 dotted 1px;
+}
+
+/* showcase info fix  */
+
+#showcase{
+  height: 100%;
+}
+#showcase .showcase-content{
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+/* home info */
+#home-info .info-img{ 
+  display: none;
+  height: 550px;
+}
+/* hides the image in .info-content with a none float*/
+#home-info .info-content{
+  float: none;
+  width: 100%;
+}
+
+/* Boxes ,stacks the boxes on a mobile view */
+.box{
+  float: none;
+  width: 100%;
+}
+/* about info  for both left and right*/
+#about-info .info-right,
+#about-info .info-left{
+  float: none;
+  width: 100%;
+}
+
+#about-info .info-right{
+  margin-top: 30px;
+}
+
+.l-heading{
+  text-align: center;
+  
+}
+
+/* testimonial boxes coming out a bit so do height 100% in the style sheet*/
+
+/* Contact Border */
+#contact-info .box{
+  border-bottom: #444 dotted 1px;
+}
